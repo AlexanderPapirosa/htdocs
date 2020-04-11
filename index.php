@@ -1,8 +1,4 @@
 <html>
-<<<<<<< HEAD
-<!-- Made by Marc Keil -->
-=======
->>>>>>> ecf94ea09131865e615cf84a156ef6c13da31222
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
