@@ -23,13 +23,14 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 		</header>
 		
 		<nav id="menu">
+			<!-- menu: 1 -->
 			<ul>
-				<!-- menu: 1 -->
 				<li><a href="test.php">Hilfe</a></li>
 			</ul>
 		</nav>
 
 		<section>
+			<!-- body: 1 -->
 			<table border="0" cellpadding="0" cellspacing="40" align="center" style="width:100%">
 				<tr>
 					<td align="center">  
