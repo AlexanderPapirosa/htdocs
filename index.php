@@ -27,9 +27,6 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 			<!-- menu: 1 -->
 			<ul>
 				<li id="menu_label">ANMELDUNG</li>
-				<li><a href="#">Hilfe</a></li>
-				<li><a href="#">Hilfe 2</a></li>
-				<li><a href="#">Hilfe 3</a></li>
 			</ul>
 		</nav>
 
@@ -59,7 +56,7 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 			</table> 
 			<div id="bodyText" align="center">
 				<a href="#">Passwort vergessen?</a><br>
-				<a href="#">Registrieren</a><br>
+				<a href="main/main.php">Registrieren</a><br>
 				<a href="#">Registrieren als Gruppenadministrator</a>
 			</div>
 			<br>

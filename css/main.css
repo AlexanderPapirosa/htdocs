@@ -13,6 +13,12 @@ body {
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 header, nav, footer, aside, section {
     display: block;
 	
