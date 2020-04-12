@@ -26,7 +26,10 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 		<nav id="menu">
 			<!-- menu: 1 -->
 			<ul>
-				<li><a href="test.php">Hilfe</a></li>
+				<li id="menu_label">ANMELDUNG</li>
+				<li><a href="#">Hilfe</a></li>
+				<li><a href="#">Hilfe 2</a></li>
+				<li><a href="#">Hilfe 3</a></li>
 			</ul>
 		</nav>
 
