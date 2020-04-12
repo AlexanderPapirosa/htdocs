@@ -1,11 +1,72 @@
-body { background-color:#CCFFCC; }
-
-a {
-color: #005500;
-text-decoration:none;
+body {
+	color: #005500;
+    background-color: #CCFFCC;
+	text-align: center;
 }
 
-ul {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer, aside, section {
+    display: block;
+	
+    margin-left: 200px;
+    margin-right: 200px;
+	
+	font-family: Helvetica;
+	font-size: 10px;
+	font-weight: normal;
+	
+	border: 2px solid #3d3d3d; 
+}
+header {
+	background-color: #88FF88;
+	border-radius: 20px 20px 0px 0px;
+	height:50px;
+	padding-top: 8px;
+	
+	font-size: 25px;
+	font-weight: bold;	
+}
+nav {
+	background-color: #BBFFAA;
+    margin-top: -2px;
+	height:50px; 
+}
+aside {
+}
+section {	
+	background-color: #99CC99;
+    margin-top: -2px;
+	text-align: left;
+	font-weight: normal;
+}
+footer {
+	background-color: #88FF88;
+    margin-top: -2px;
+	border-radius:0px 0px 20px 20px;
+	height:50px;
+	padding-top: 14px;
+	
+	font-size:15px;
+	font-weight:bold;
+}
+
+a {
+	color: #005500;
+	text-decoration:none;
+}
+
+#wrapper {
+    background-color: #CCFFCC;
+    width: 900px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+#menu ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -14,95 +75,39 @@ background-color: #BBFFAA;
 text-align:left;
 margin-left:20px;
 }
-li {
-display:inline-block;
-margin-top: 4px;
-}
-li a {
-display: block;
-color: #005500;
-text-align: center;
-padding: 14px 20px;
-text-decoration: none;
-}
-li a:hover {
-background-color: #88FF88;
-border-radius:15px 15px 15px 15px ;
+
+#menu li {
+	display:inline-block;
 }
 
-#head { 
-position: fixed;
-top: 80px;
-left: 50%;
-transform: translateX(-50%);
-width:500; 
-height:50px; 
-z-index:1;
-background-color:#88FF88;
-border-radius: 20px 20px 0px 0px;
-border: 2px solid #3d3d3d;
+#menu a {
+	display: block;
+	color: #005500;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:15px;
 }
 
-#headText { 
-margin-top: 10px;
-font-size:25px;
-text-align: center;
-font-weight:bold;
-color:#005500;
-}
-
-#menu { 
-position: fixed;
-top: 128px;
-left: 50%;
-transform: translateX(-50%);
-width:500; 
-height:58px; 
-z-index:1;
-border: 2px solid #3d3d3d;
-font-weight:bold;
-background-color: #BBFFAA;
-}
-
-#body {
-position: fixed;
-top: 184px;
-left: 50%;
-transform: translateX(-50%);
-width:500px; 
-height:350px;
-background-color:#99CC99;
-border: 2px solid #3d3d3d;
+#menu a:hover {
+	background-color: #88FF88;
+	border-radius:25px 25px 25px 25px ;
 }
 
 #bodyText {
-margin-left:80px;
-font-size:15px;
-text-decoration:underline;
-color:#005500;
-text-align: left;
+	margin-left:80px;
+	font-size:15px;
+	color:#005500;
+	text-align: left;
 }
 
-#footer {
-position: fixed;
-top: 532;
-left: 50%;
-transform: translateX(-50%);
-width:500px; 
-height:50px; 
-z-index:1;
-background-color:#88FF88;
-border-radius:0px 0px 20px 20px ;
-border: 2px solid #3d3d3d;
+#bodyText a {
+	text-decoration:none;
 }
 
-#footerText { 
-margin-top: 15px;
-font-size:15px;
-text-align: center;
-color:#005500;
-font-weight:bold;
-
+#bodyText a:hover {
+	text-decoration:underline;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Dosis');
@@ -152,20 +157,6 @@ font-weight:bold;
 
 html {
   font-size: 10px;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  width: 50vw;
-  height: 100vh;
-  color: #3d3d3d;
-  background-color: #CDFFCC;
-  font-family: var(--fontFamily);
-  font-size: var(--fontSizeMd);
-  line-height: var(--lineHeightMd);
 }
 
 .Wrapper {
@@ -247,6 +238,3 @@ body {
     visibility 0ms,
     z-index 0ms;
 }
-
-
-
