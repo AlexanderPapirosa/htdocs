@@ -1,8 +1,10 @@
 <html>
+<!-- DB-NR: 1 -->
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="shortcut icon" href="icon.png" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" /href="format.css" >
+<link rel="shortcut icon" href="graphic/icon.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" /href="Css/mainFormat.css" >
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 
@@ -15,81 +17,73 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 <body>
 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
-
+<!-- HEAD -->
 <tr>
 	<td width="500">
-		<div id="head_login">
-		<div id="head_login_text">
+		<div id="head">
+		<div id="headText">
 			TimeRecordingSystem 1.3
 		</div>
 		</div>
 	</td>
 </tr>
-
+<!-- MENU -->
 <tr align="center">
 	<td align="center"  width="500">
-		<div id="head_menu_bar">
+		<div id="menu">
 			<ul align="center">
-				<li><a class="active" href="#home">Menu1</a></li>
-				<li><a href="#news">Menu2</a></li>
-				<li><a href="#contact">Menu3</a></li>
-				<li><a href="#about">Menu4</a></li>
+				<!-- DB-NR: 1 -->
+				<li><a href="#">Hilfe</a></li>
 			</ul>
 		</div>
 	</td>
 </tr>
-
+<!-- BODY -->
 <tr>
-<td width="500">
-
-<div id="body_login">
-<br>
-<table border="0" cellpadding="0" cellspacing="40" align="center" style="width:100%">
-
-<tr>
-	<td align="center">  
-		<div class="Wrapper">
-		<div class="Input">
-			<input type="text" id="input" class="Input-text" placeholder="E-Mail">
-			<label for="input" class="Input-label">E-Mail</label>
-		</div>
+	<td width="500">
+		<div id="body">
+			<br>
+			<table border="0" cellpadding="0" cellspacing="40" align="center" style="width:100%">
+				<tr>
+					<td align="center">  
+						<div class="Wrapper">
+						<div class="Input">
+							<input type="text" id="input" class="Input-text" placeholder="E-Mail">
+							<label for="input" class="Input-label">E-Mail</label>
+						</div>
+						</div>
+					</td>
+				</tr> 
+				<tr>
+					<td align="center">  
+						<div class="Wrapper">
+						<div class="Input">
+							<input type="password" id="input" class="Input-text" placeholder="Passwort">
+							<label for="input" class="Input-label">Passwort</label>
+						</div>
+						</div> 
+					</td>
+				</tr>
+			</table> 
+			<div id="bodyText" align="center">
+				<a href="#">Passwort vergessen?</a><br>
+				<a href="#">Registrieren</a><br>
+				<a href="#">Registrieren als Gruppenadministrator</a>
+			</div> 
 		</div>
 	</td>
 </tr>
- 
-<tr>
-	<td align="center">  
-		<div class="Wrapper">
-		<div class="Input">
-			<input type="text" id="input" class="Input-text" placeholder="Passwort">
-			<label for="input" class="Input-label">Passwort</label>
-		</div>
-		</div> 
-	</td>
-</tr>
-</table>
- 
-<div id="body_login_text2" align="center">
-	<a href="https://duckduckgo.com">Passwort vergessen?</a><br>
-	<a href="https://duckduckgo.com">Registrieren</a><br>
-	<a href="https://duckduckgo.com">Als Gruppenadministrator anmelden</a>
-</div>
- 
-
-</td>
-</tr>
-
+<!-- FOOTER -->
 <tr align="center">
-<td width="*"></td>
-<td width="500">
-<div id="footer_login">
-<div id="footer_login_text">
-<a href="https://duckduckgo.com">AGB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://duckduckgo.com">Impressum</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://duckduckgo.com">Powered by EDV-Keil</a> 
-</div>
-</div>
-</td>
-<td width="*"></td>
+	<td width="500">
+		<div id="footer">
+			<div id="footerText">
+				<a href="http://www.edv-keil.de">Powered by EDV-Keil &copy; 2020</a> 
+			</div>
+		</div>
+	</td>
 </tr>
+
 </table>
 
 <script>
@@ -113,4 +107,5 @@ window.cookieconsent.initialise({
 </script>
 
 </body>
+
 </html>

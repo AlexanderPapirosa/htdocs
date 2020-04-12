@@ -10,28 +10,31 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;			
-background-color: #99CC99;
-text-align:center;
+background-color: #BBFFAA;
+text-align:left;
+margin-left:20px;
 }
 li {
 display:inline-block;
+margin-top: 4px;
 }
 li a {
 display: block;
 color: #005500;
 text-align: center;
-padding: 14px 16px;
+padding: 14px 20px;
 text-decoration: none;
 }
 li a:hover {
 background-color: #88FF88;
+border-radius:15px 15px 15px 15px ;
 }
 
-#head_login { 
+#head { 
 position: fixed;
-	top: 80px;
-    left: 50%;
-    transform: translateX(-50%);
+top: 80px;
+left: 50%;
+transform: translateX(-50%);
 width:500; 
 height:50px; 
 z-index:1;
@@ -40,7 +43,7 @@ border-radius: 20px 20px 0px 0px;
 border: 2px solid #3d3d3d;
 }
 
-#head_login_text { 
+#headText { 
 margin-top: 10px;
 font-size:25px;
 text-align: center;
@@ -48,41 +51,31 @@ font-weight:bold;
 color:#005500;
 }
 
-#head_menu_bar { 
+#menu { 
 position: fixed;
-	top: 128px;
-    left: 50%;
-    transform: translateX(-50%);
+top: 128px;
+left: 50%;
+transform: translateX(-50%);
 width:500; 
-height:50px; 
+height:58px; 
 z-index:1;
-background-color:#88FF88;
 border: 2px solid #3d3d3d;
-
 font-weight:bold;
+background-color: #BBFFAA;
 }
 
-#body_login {
+#body {
 position: fixed;
-	top: 160px;
-    left: 50%;
-    transform: translateX(-50%);
+top: 184px;
+left: 50%;
+transform: translateX(-50%);
 width:500px; 
 height:350px;
 background-color:#99CC99;
 border: 2px solid #3d3d3d;
 }
 
-#body_login_text { 
-margin-top:0px;
-margin-left:20px;
-font-size:20px;
-line-height:30px;
-color:#005500;
-text-align: left;
-}
-
-#body_login_text2 {
+#bodyText {
 margin-left:80px;
 font-size:15px;
 text-decoration:underline;
@@ -90,11 +83,11 @@ color:#005500;
 text-align: left;
 }
 
-#footer_login {
+#footer {
 position: fixed;
-	top: 490px;
-    left: 50%;
-    transform: translateX(-50%);
+top: 532;
+left: 50%;
+transform: translateX(-50%);
 width:500px; 
 height:50px; 
 z-index:1;
@@ -103,7 +96,7 @@ border-radius:0px 0px 20px 20px ;
 border: 2px solid #3d3d3d;
 }
 
-#footer_login_text { 
+#footerText { 
 margin-top: 15px;
 font-size:15px;
 text-align: center;
@@ -219,10 +212,10 @@ body {
   position: absolute;
   bottom: 50%;
   left: 1rem;
-  color: #fff;
+  color: #005500;
   font-family: inherit;
   font-size: var(--inputFontSize);
-  font-weight: inherit;
+  font-weight: bold;
   line-height: var(--inputLineHeight);
   opacity: 0;
   transform: 
