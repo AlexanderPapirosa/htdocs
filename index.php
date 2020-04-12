@@ -20,7 +20,7 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 	<div id="wrapper">
 	
 		<header>
-			TimeRecordingSystem 1.3
+			TimeRecordingSystem 1.4
 		</header>
 		
 		<nav id="menu">
@@ -66,7 +66,7 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 		</section>
 		
 		<footer>
-			<a href="http://www.edv-keil.de">Powered by EDV-Keil &copy; 2020</a>
+			<a href="http://www.edv-keil.de">Erstellt von EDV-Keil &copy; 2020</a>
 		</footer>
 
 	</div>
