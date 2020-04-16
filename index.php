@@ -7,8 +7,7 @@
 <link rel="shortcut icon" href="graphic/icon.png" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="css/main.css" >
 <link rel="stylesheet" type="text/css" href="css/thirdParty.css" >
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script src="js/main.js"></script>
 
 <title>
 TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
@@ -20,74 +19,43 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 	<div id="wrapper">
 	
 		<header>
-			TimeRecordingSystem 1.4
+			<script>
+				show0002();
+			</script>
 		</header>
 		
 		<nav id="menu">
 			<!-- menu: 1 -->
-			<ul>
-				<li id="menu_label">ANMELDUNG</li>
+			<ul id="menulist">
+				<li id="menu_label">COOKIE</li>				
+				<li><a href="javascript: enable0001()">Verstanden!</a></li>
 			</ul>
 		</nav>
 
 		<section>
-			<!-- body: 1 -->
-			<table border="0" cellpadding="0" cellspacing="40" align="center" style="width:100%">
-				<tr>
-					<td align="center">  
-						<div class="Wrapper">
-						<div class="Input">
-							<input type="text" id="input" class="Input-text" placeholder="E-Mail">
-							<label for="input" class="Input-label">E-Mail</label>
-						</div>
-						</div>
-					</td>
-				</tr> 
-				<tr>
-					<td align="center">  
-						<div class="Wrapper">
-						<div class="Input">
-							<input type="password" id="input" class="Input-text" placeholder="Passwort">
-							<label for="input" class="Input-label">Passwort</label>
-						</div>
-						</div> 
-					</td>
-				</tr>
-			</table> 
+			<!-- body: 1 --> 
+			<div id="bodyForm" align="center">
+				<div align="left" style="padding: 20px; font-weight:bold;">
+				Diese Webseite verwendet Cookies, um Ihnen ein angenehmeres Surfen zu ermöglichen.
+				</div>
+			</div> 
 			<div id="bodyText" align="center">
-				<a href="#">Passwort vergessen?</a><br>
-				<a href="main/main.php">Registrieren</a><br>
-				<a href="#">Registrieren als Gruppenadministrator</a>
 			</div>
 			<br>
 		</section>
 		
 		<footer>
-			<a href="http://www.edv-keil.de">Erstellt von EDV-Keil &copy; 2020</a>
+			<a target= "_blank" href="http://www.edv-keil.de">Erstellt von EDV-Keil &copy; 2020</a>
 		</footer>
 
-	</div>
-	
+	</div>		
+			
 	<script>
-		window.cookieconsent.initialise({
-		  "palette": {
-			"popup": {
-			  "background": "#89FF88",
-			  "text": "#005500"
-			},
-			"button": {
-			  "background": "#99CC99",
-			  "text": "#005500"
-			}
-		  },
-		  "theme": "classic",
-		  "content": {
-			"message": "Diese Webseite verwendet Cookies, um Ihnen ein angenehmeres Surfen zu ermöglichen.",
-			"dismiss": "Verstanden!"
-		  }
-		});
+		window.onload = function () 
+		{
+			show0001();
+		} 
 	</script>
-	
 </body>
 
 </html>

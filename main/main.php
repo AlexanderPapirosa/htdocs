@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="shortcut icon" href="graphic/icon.png" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="../css/main.css" >
+<script src="../js/main.js"></script>
 
 <title>
 TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
@@ -17,7 +18,9 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 	<div id="wrapper">
 	
 		<header>
-			TimeRecordingSystem 1.4
+			<script>
+				show0002();
+			</script>
 		</header>
 		
 		<nav id="menu">
