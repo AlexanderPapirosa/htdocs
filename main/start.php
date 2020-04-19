@@ -2,7 +2,6 @@
 
 <?php
 require_once 'includeDB.php';
-
 $mysqli = open_database_connection();
 ?>
 
@@ -22,6 +21,7 @@ TRS.PAPIROSA.COM - TIME RECORDING SYSTEM BY EDV-KEIL.DE
 </head>
 
 <body>
+
 	<div id="wrapper">
 	
 		<header>
